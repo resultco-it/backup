@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(to right, #fff, #ddd);
+            }
+            .box {
+                /* height: 600px; */
+                width: 500px;
+                border: 2px solid #000;
+            }
+            h2 {
+                margin-left: 20px;
+                padding: 20px 0;
+            }
+            ul {
+                list-style: none;
+                margin-bottom: 20px;
+            }
+
+            ul li {
+                margin: 0 20px;
+                padding: 10px 0;
+                border-bottom: 2px solid #000;
+            }
+
+            ul li span {
+                margin-right: 10px;
+                font-weight: 700;
+            }
+            ul :nth-child(-n + 3) span {
+                color: red;
+            }
+            .test {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <h2>Daily News</h2>
+            <ul id="demo">
+                <li><span>1</span>Lorem amet consectetur adipisicing elit. Illum ab quod s quia eos?</li>
+                <li><span>2</span>Lorem ipsum consectetur adipisicing elit. Illum ab qcilis quia eos?</li>
+                <li><span>3</span>Lorem ipsum, consectetur adipisicing elit. Illum ailis quia eos?</li>
+                <li><span>4</span>Lorem ipsum, dolor adipisicing elit. Illum ab facilis quia eos?</li>
+                <li><span>5</span>Lorem ipsum, dolor sit elit. Illum ab quod saepe facilis quia eos?</li>
+                <li><span>6</span>Lorem ipsum, dolor sit amet cing elit. Illum ab quod quia eos?</li>
+                <li><span>7</span>Lorem ipsum, dolor sit amet consectetur adipelie facilis quia eos?</li>
+                <li><span>8</span>Lorem ipsum, dolor sit amicing elit. Illum ab quia eos?</li>
+                <li><span>9</span>Lorem ipsum, dolor sit amet cicing elit. Illum ab quods quia eos?</li>
+                <li><span>10</span>Lorem ipsum, dolet consectetur adipisicing eis quia eos?</li>
+                <li><span>11</span>Lorem ipsum, dolpisicing elit. Illum ab qulis quia eos?</li>
+            </ul>
+        </div>
+    </body>
+</html>
+
+<script>
+    const demo = document.getElementById("demo :nth-child(3)");
+    demo.classList.add("test");
+</script>
