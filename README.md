@@ -6,10 +6,13 @@
 
 ## THC Shopify
 
-> Add word "OR LESS" next to each price.
+### Add word "OR LESS" next to each price.
+
 > Modified the `product-template.liquid` file
 
-`{{ current_variant.price | money }} OR LESS`
+```
+{{ current_variant.price | money }} OR LESS
+```
 
 > Modified the `product-grid-item.liquid` file
 
