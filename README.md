@@ -1,5 +1,5 @@
-# Check List
+# Backup Notes
 
 ## Redirect THC WordPress Site
 
-> > Self hosted site, access the WP-admin by [Dashboard](https://thehighculture.resultco.com/wp-admin/)
+> Self hosted site, access the WP-admin by [Dashboard](https://thehighculture.resultco.com/wp-admin/)
